@@ -18,7 +18,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "update github_page_info_2 -d build"
+    "deploy": "update_github_page_info -d build"
   },
   "eslintConfig": {
     "extends": [
