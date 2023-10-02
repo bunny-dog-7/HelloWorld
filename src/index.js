@@ -1,7 +1,7 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';   // method
 import './index.css';
-//import App from './App';
+import App from './App';
 import reportWebVitals from './reportWebVitals';
 import HelloWorld from './HelloWorld'; // Import HelloWorld component
 
@@ -9,6 +9,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HelloWorld /> {/* Use HelloWorld component here */}
+    <App />
   </React.StrictMode>
 );
 
