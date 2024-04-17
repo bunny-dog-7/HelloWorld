@@ -1,0 +1,10 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "../../../django/media/files/ohbrfss22 2024-04-16 21_18_46.csv"},
+    "mark": "bar",
+    "encoding": {
+    "x": {"field": "INCOME3", "type": "ordinal"},
+    "y": {"field": "GENHLTH", "type": "quantitative"}
+    }
+    
+  }
